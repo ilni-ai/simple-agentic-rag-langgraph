@@ -78,10 +78,11 @@ npm run dev
 
 ```mermaid
 graph TD
-    A[User Query + Memory] --> B[Semantic Retrieval (FAISS)]
-    B --> C[Gemini LLM Prompted with Chat History + Facts]
-    C --> D[Response + Follow-Up Suggestions]
-    D --> E[Memory Update (SQLite)]
+    A(User Query + Memory) --> B(Semantic Retrieval using FAISS)
+    B --> C(Gemini LLM with Chat History + Facts)
+    C --> D(Response + Suggested Follow-Ups)
+    D --> E(Memory Update via SQLite)
+
 ```
 
 - **Vector DB**: FAISS (with local persistence in `faiss_index/`)

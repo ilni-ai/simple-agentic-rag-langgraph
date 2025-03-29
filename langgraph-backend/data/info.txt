@@ -1,0 +1,17 @@
+Software Engineering
+Software engineering is a systematic approach to the development, operation, and maintenance of software. It encompasses requirements gathering, design, coding, testing, and maintenance, with a focus on quality and efficiency.
+
+Retrieval-Augmented Generation (RAG)
+RAG combines the strengths of information retrieval systems with generative AI models. The retrieved data enhances factual grounding, reducing hallucinations in generated outputs.
+
+Agentic AI
+Agentic AI refers to systems capable of planning, executing, and adapting autonomously to achieve complex goals. These systems simulate human-like decision-making and dynamic interactions.
+
+Estimated Population of the Earth
+As of 2024, the estimated population of the Earth is approximately 8 billion people, according to the United Nations.
+
+Great Circle
+A great circle is the largest circle that can be drawn on a sphere. It divides the sphere into two equal hemispheres and represents the shortest path between two points on the surface.
+
+Small Circle
+A small circle on a sphere is a circle that is smaller than a great circle. It does not divide the sphere into equal halves and is generally not the shortest path between points.

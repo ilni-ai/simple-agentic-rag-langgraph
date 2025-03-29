@@ -1,0 +1,10 @@
+# Node
+agentic-rag-ui/node_modules/
+agentic-rag-ui/dist/
+
+# Python
+langgraph-backend/venv/
+langgraph-backend/__pycache__/
+langgraph-backend/memory.db
+langgraph-backend/faiss_index/
+langgraph-backend/.env

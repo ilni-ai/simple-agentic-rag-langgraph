@@ -1,0 +1,11 @@
+flask
+flask-cors
+langchain
+langchain-community
+langgraph
+google-generativeai
+langchain-google-genai
+python-dotenv
+tiktoken
+faiss-cpu
+

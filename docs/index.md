@@ -37,11 +37,9 @@ Welcome to a fully working open-source example of **Retrieval-Augmented Generati
 ```mermaid
 graph TD
     A[User Query + Chat Memory] --> B[FAISS Semantic Search]
-    B --> C[Gemini LLM: Prompt + History]
-    C --> D[LLM Response + Follow-Ups]
-    D --> E[Update Chat Memory (SQLite)]
-```
-
+    B --> C[Gemini LLM - Prompt and History]
+    C --> D[LLM Response and Follow-Ups]
+    D --> E[Update Chat Memory in SQLite]
 ---
 
 ## 🎓 Educational Use

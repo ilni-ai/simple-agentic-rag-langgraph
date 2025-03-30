@@ -40,6 +40,7 @@ graph TD
     B --> C[Gemini LLM - Prompt and History]
     C --> D[LLM Response and Follow-Ups]
     D --> E[Update Chat Memory in SQLite]
+
 ---
 
 ## 🎓 Educational Use

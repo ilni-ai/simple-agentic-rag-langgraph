@@ -1,38 +1,27 @@
-# 🔍 Simple Agentic RAG with LangGraph, Gemini & FAISS
+# 🌐 Simple Agentic RAG App — GitHub Pages Overview
 
-Welcome to a fully working open-source example of **Retrieval-Augmented Generation (RAG)** using:
+This GitHub Pages site serves as a landing page and documentation for the full-stack Agentic RAG app using:
 
-- 🧠 [LangGraph](https://github.com/langchain-ai/langgraph) for agentic flows
-- 🧬 [Gemini API](https://ai.google.dev/) for LLM and embeddings
-- 🔎 [FAISS](https://github.com/facebookresearch/faiss) for semantic vector search
-- 💬 SQLite for chat memory
-- ⚛️ React UI with follow-up questions
-
----
-
-## 🧪 Key Features
-
-✅ Semantic retrieval over your own documents  
-✅ LangGraph memory-based flow  
-✅ FAISS with disk persistence (`faiss_index/`)  
-✅ Gemini-powered reasoning and suggestions  
-✅ Session memory stored in SQLite  
-✅ Flask + React full-stack project
+- 🧠 LangGraph for agentic flows and memory handling
+- 🔍 FAISS for semantic retrieval over local docs
+- 🤖 Gemini API for chat and embeddings
+- ⚛️ React frontend with Bootstrap UI
 
 ---
 
-## 🚀 Get Started
+## ⚙️ Quick Start
 
-1. Clone this repo
-2. Add your `GEMINI_API_KEY` to `.env`
-3. Run the backend and frontend (see README)
-4. Start exploring agentic RAG with memory
+1. Clone the repository:
 
-[🔧 Setup instructions](../README.md)
+```
+git clone https://github.com/yourusername/simple-agentic-rag-langgraph.git
+```
+
+2. Navigate to backend and frontend folders and follow setup steps from [README](../blob/main/langgraph-backend/README.md).
 
 ---
 
-## 🧠 LangGraph Flow
+### LangGraph Flow
 
 ```mermaid
 graph TD
@@ -40,6 +29,7 @@ graph TD
     B --> C[Gemini LLM - Prompt and History]
     C --> D[LLM Response and Follow-Ups]
     D --> E[Update Chat Memory in SQLite]
+```
 
 ---
 
@@ -58,14 +48,22 @@ This project is used in my course to teach:
 ```
 simple-agentic-rag-langgraph/
 ├── langgraph-backend/
-│   └── core, utils, data, faiss_index/
+│   ├── app.py, rag_routes.py, core/, utils/, faiss_index/
 ├── agentic-rag-ui/
+│   └── (React frontend)
 ├── docs/
-│   └── index.md   <-- this file
+│   └── index.md  ← this file
 ```
 
 ---
 
-## ✍️ License
+## 🔗 Resources
 
-MIT License. Feel free to fork and extend.
+- 🔗 [LangGraph Docs](https://docs.langchain.com/langgraph)
+- 🔗 [Gemini API](https://ai.google.dev)
+- 🔗 [FAISS GitHub](https://github.com/facebookresearch/faiss)
+- 🔗 [LangChain VectorStores](https://docs.langchain.com/docs/integrations/vectorstores/faiss)
+
+---
+
+© 2025 MIT License. Created for educational purposes.
